@@ -23,7 +23,9 @@ public class AnotherController {
 
             if (braces.charAt(i) == '(') {
                 stack.push('(');
+                System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
             } else {
+                System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
                 if (stack.isEmpty()) return false;
                 else stack.pop();
             }
