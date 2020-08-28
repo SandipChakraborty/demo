@@ -28,6 +28,8 @@ public class AnotherController {
                 System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
                 if (stack.isEmpty()) return false;
                 else stack.pop();
+                System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
+                System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
             }
         }
 
