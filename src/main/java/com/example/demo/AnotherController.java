@@ -15,6 +15,9 @@ public class AnotherController {
 
     private boolean isComplete(String braces) {
 
+
+        System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
+
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < braces.length(); i++) {
 
@@ -25,6 +28,9 @@ public class AnotherController {
                 else stack.pop();
             }
         }
+
+        System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
+
         return stack.isEmpty();
     }
 }
